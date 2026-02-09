@@ -1,12 +1,16 @@
 @import "tailwindcss";
-
 @plugin '../hero.ts';
-
-@source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
-
+@source '../node_modules/@heroui/theme/dist/**/*.{js,mjs,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
 
-@theme {
-    --font-sans: "font", sans-serif;
-    --font-mono: "monospace", monospace;
+:root {
+  --background: #ffefd6;
+  --foreground: #030800;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-manrope);
+  --font-mono: var(--font-mono);
 }
