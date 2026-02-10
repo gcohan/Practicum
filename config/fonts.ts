@@ -1,3 +1,5 @@
+//font configs go here
+
 import { Fira_Code as FontMono, Manrope as FontSans } from "next/font/google";
 
 export const fontSans = FontSans({

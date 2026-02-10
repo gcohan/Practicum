@@ -1,3 +1,5 @@
+//tailwind theme thing that we are not currently using, also premade 
+
 import { tv } from "tailwind-variants";
 
 export const title = tv({

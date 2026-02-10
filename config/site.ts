@@ -1,3 +1,5 @@
+//unused currently, was also premade for testing site. can use as template if needed
+
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {

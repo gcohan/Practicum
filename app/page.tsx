@@ -1,4 +1,4 @@
-import { Card, CardHeader, CardBody } from "@heroui/card";
+import { Card, CardHeader, CardBody } from "@heroui/card"; //will change to import componenets as needed 
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
 
       {/* Dashboard grid */}
       <div className="flex-1 grid grid-cols-2 grid-rows-[2fr_1fr] gap-6">
-        {/* Top-left quadrant — Financial */}
+        {/* Top-left quadrant — Financial (function access and design will be placed inside cards) */}  
         <div className="bg-black/5 rounded-2xl p-3 flex flex-col gap-2">
           <span className="text-xs font-medium text-foreground/50 uppercase tracking-wider">Financial</span>
           <div className="flex-1 grid grid-cols-2 grid-rows-2 gap-3">

@@ -1,3 +1,5 @@
+//unused and premade themeswitcher , can update if needed
+
 "use client";
 
 import { FC } from "react";

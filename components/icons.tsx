@@ -1,3 +1,5 @@
+//these components are premade by Next and we can remove or change them as needed
+
 import * as React from "react";
 
 import { IconSvgProps } from "@/types";
